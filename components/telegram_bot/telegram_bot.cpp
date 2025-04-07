@@ -6,7 +6,6 @@
 #include "esphome/core/log.h"
 #include "esphome/core/util.h"
 #include "ArduinoJson.h"
-#include "esphome/components/switch/switch.h"
 #include <cstdlib>
 
 // #define USETASK
