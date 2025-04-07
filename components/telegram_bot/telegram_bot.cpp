@@ -416,10 +416,6 @@ namespace esphome
           if (outmsg.type == mtSwitch)
           {
             global_notify->messages_.pop();
-            if (outmsg.state)
-              static_cast<switch_::Switch *>(outmsg.f)->turn_on();
-            else
-              static_cast<switch_::Switch *>(outmsg.f)->turn_off();
           }
           else
           {
